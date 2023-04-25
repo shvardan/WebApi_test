@@ -39,7 +39,7 @@ namespace Eshop.Application.Features.Common
             {
                 if (x != null && _filterProperyType != null && EntityTypeHelper.IsValidFilterValue(_filterProperyType, x, out string formattedValue))
                 {
-                    requst.FilterValue1 = formattedValue;
+                    requst.FilterValue2 = formattedValue;
                     return true;
                 }
                 return false;
